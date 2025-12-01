@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="overlay-card">
+        <div class="profile-pic">
+            <img src="images/me.jpg" alt="Profile Photo">
+        </div>
+
+        <h1 class="name">Trmuha</h1>
+        <h2 class="branch">Cybersecurity & Embedded Systems</h2>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button onclick="switchTab('about')">About</button>
+            <button onclick="switchTab('skills')">Skills</button>
+            <button onclick="switchTab('projects')">Projects</button>
+            <button onclick="switchTab('experience')">Experience</button>
+            <button onclick="switchTab('education')">Education</button>
+        </div>
+
+        <!-- Dynamic Content -->
+        <div id="content" class="content-box">
+            <h3>About Me</h3>
+            <p>Write your About Me section here...</p>
+
+            <h3>Contact</h3>
+            <p>Email: your@email.com</p>
+            <p>Phone: +212 6 00 00 00 00</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
