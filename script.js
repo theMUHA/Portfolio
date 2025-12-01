@@ -13,7 +13,7 @@ function switchTab(tabName) {
 
         skills: `
             <h3>Skills</h3>
-            <p>Montage des videos, Graphic design</p>
+            <p>Montage des videos, Graphique design</p>
         `,
 
         projects: `
@@ -34,3 +34,4 @@ function switchTab(tabName) {
 
     contentBox.innerHTML = sections[tabName];
 }
+
